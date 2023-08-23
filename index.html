@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Expense App</title>
+</head>
+<header>Expense Tracker</header>
+<body>
+    <form>
+        <label>Name:</label>
+        <input type="text" class="input-text">
+        <label>Date:</label>
+        <input type="date" class="input-date">
+        <label>Amount:</label>
+        <input type="number" class="input-amount">
+        <button type="submit" class="submit-btn">Add Expense</button>
+    </form>
+    <div class="container">
+        <table class="expense-table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+            </tr>
+            </thead>
+            <tbody class="expense-tbody"></tbody>
+         </table>
+    </div>
+   
+    
+
+    <script src="index.js"></script> 
+</body>
+</html>
